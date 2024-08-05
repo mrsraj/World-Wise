@@ -1,0 +1,59 @@
+{
+    "Details": [
+        {
+            "cityName": "New York",
+            "countryName": "USA",
+            "position": {
+                "lat": 40.7128,
+                "lng": -74.0060
+            },
+            "date": "2024-08-01",
+            "id": "1",
+            "emoji": "🗽"
+        },
+        {
+            "cityName": "Tokyo",
+            "countryName": "Japan",
+            "position": {
+                "lat": 35.6895,
+                "lng": 139.6917
+            },
+            "date": "2024-08-01",
+            "id": "2",
+            "emoji": "🗼"
+        },
+        {
+            "cityName": "Paris",
+            "countryName": "France",
+            "position": {
+                "lat": 48.8566,
+                "lng": 2.3522
+            },
+            "date": "2024-08-01",
+            "id": "3",
+            "emoji": "🗼"
+        },
+        {
+            "cityName": "Sydney",
+            "countryName": "Australia",
+            "position": {
+                "lat": -33.8688,
+                "lng": 151.2093
+            },
+            "date": "2024-08-01",
+            "id": "4",
+            "emoji": "🌉"
+        },
+        {
+            "cityName": "Cairo",
+            "countryName": "Egypt",
+            "position": {
+                "lat": 30.0444,
+                "lng": 31.2357
+            },
+            "date": "2024-08-01",
+            "id": "5",
+            "emoji": "🕌"
+        }
+    ]
+}
