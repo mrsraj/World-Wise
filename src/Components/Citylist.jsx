@@ -1,7 +1,10 @@
 
 import CityItem from "./CityItem"
+import { useCities } from "../contexts/ContextApis"
 
-function Citylist({ cities, isLoading }) {
+function Citylist() {
+    const {cities, isLoading} = useCities();
+
     if (isLoading) {
         return (
             <p>Loading...</p>
