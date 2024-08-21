@@ -13,7 +13,7 @@ import CountriesList from "./Components/CountriesList";
 import City from "./Components/City";
 import Form from "./Components/Form";
 import { CitiesProvider } from "./contexts/ContextApis";
-import { useContext } from "react";
+
 
 function App() {
   
@@ -33,7 +33,7 @@ function App() {
             {/*URLs For Book mark: using param*/}
             <Route path="cities/:id" element={<City />} />
 
-            <Route path='cities' element={<Citylist />} />
+            <Route path="cities" element={<Citylist />} />
             <Route path="countries" element={<CountriesList />} />
             <Route path="form" element={<Form />} />
           </Route>

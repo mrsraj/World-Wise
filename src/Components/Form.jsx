@@ -2,7 +2,11 @@
 
 function Form() {
     return (
-        <p>I am Form:</p>
+        <div>
+            <form action="#">
+                <input type="text" id="name" name="name"/>
+            </form>
+        </div>
     )
 }
 
